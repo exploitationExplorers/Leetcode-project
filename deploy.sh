@@ -15,7 +15,7 @@ git add .
 git commit -m 'deploy'
 
 # 部署到 https://<username>.github.io/<repo>
-git push -f https://github.com/exploitationExplorers/Leetcode-project.git main:github-pages
+git push -f https://github.com/exploitationExplorers/Leetcode-project.git master:github-pages
 
 # 提交所有代码到github
 cd ../../../
