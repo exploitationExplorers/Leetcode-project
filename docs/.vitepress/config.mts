@@ -2,9 +2,12 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
 	title: '算法刷题与题解',
-	base: '/leetcode',
+	base: '/Leetcode-project/',
+  head: [ // 网站图标
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'logo.svg' }],
+  ],
 	themeConfig: {
-		logo: '/avatar.png',
+		logo: '/logo.jpg',
 		nav: [
 			{ text: '实战介绍', link: '/' },
 			{
@@ -20,7 +23,10 @@ export default defineConfig({
 				link: '/hard/25. K 个一组翻转链表',
 			},
 		],
-
+    editLink: {
+      pattern: 'https://github.com/exploitationExplorers/Leetcode-project/tree/master/docs/:path',
+      text: 'Suggest changes to this page',
+    },
 		sidebar: [
 			{
 				text: 'easy',
