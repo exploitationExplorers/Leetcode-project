@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "algorithms刷题与题解",
+  "description": "leetcode刷题与题解",
   "private": "true",
   "scripts": {
     "init": "pnpm install && pnpm run docs:build",

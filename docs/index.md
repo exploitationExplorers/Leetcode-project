@@ -1,25 +1,18 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "leetCode "
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "Leetcode算法"
+  tagline: Leetcode 刷题日记
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
+      text: 开始学习
+      link: /easy/141. 环形链表
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 内容全面
+    details: 帮助您掌握算法的具体使用技巧
+  - title: 优雅进阶
+    details: Case 从简单到复杂逐步深入，帮助您进阶掌握
+  - title: 深入浅出
+    details: 拥有完整的解题思路及常见通用问题的总结
 ---
-
