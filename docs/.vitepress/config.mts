@@ -24,7 +24,7 @@ export default defineConfig({
 			},
 		],
     editLink: {
-      pattern: 'https://github.com/exploitationExplorers/Leetcode-project/tree/master/docs/:path',
+      pattern: 'https://github.com/exploitationExplorers/Leetcode-project/tree/main/docs/',
       text: 'Suggest changes to this page',
     },
 		sidebar: [
