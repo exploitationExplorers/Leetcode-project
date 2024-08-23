@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "algorithms刷题与题解",
+  "private": "true",
+  "scripts": {
+    "init": "pnpm install && pnpm run docs:build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "Leetcode"
+  ],
+  "author": "zebing",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.3.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
